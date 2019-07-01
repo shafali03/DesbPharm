@@ -247,19 +247,19 @@ section {
 
 .bgslider li:nth-child(1) {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-    url(./img/bg-1.jpg) center no-repeat;
+    url('./img/bg-1.jpg') center no-repeat;
   animation-delay: 3s;
 }
 
 .bgslider li:nth-child(2) {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-    url(./img/bg-2.jpg) center no-repeat;
+    url('./img/bg-2.jpg') center no-repeat;
   animation-delay: 6s;
 }
 
 .bgslider li:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-    url(./img/bg-4.jpg) center no-repeat;
+    url('./img/bg-4.jpg') center no-repeat;
   animation-delay: 12s;
 }
 
@@ -358,7 +358,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
- background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(/img/bg3a.jpg);
+ background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('./img/bg3a.jpg');
  background-size: cover;
  color: #fff;
  text-align: center;
