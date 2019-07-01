@@ -86,6 +86,9 @@ section {
   width: 100%;
   transition: 2s;
   z-index: 9999;
+  background: #fff;
+    box-shadow: 0 8px 6px -6px #92C970;
+
 }
 
 .navbar .main-nav li a:hover {
@@ -111,7 +114,7 @@ section {
 }
 
 .smNav {
-  background-color: #fff;
+  /* background-color: #fff; */
   margin-top: -6.5rem;
   padding-top: 9rem;
 }
@@ -147,11 +150,16 @@ section {
   transition: 0.5s;
 }
 
-.logo {
+/* .logo {
   display: inline-block;
   font-size: 22px;
   margin-top: -10px;
   margin-left: -1rem;
+} */
+
+.logoImg {
+  width: 100px;
+  padding: 1rem;
 }
 
 .main-nav {
@@ -471,35 +479,20 @@ transition-delay: 0.5s;
                 Location
 ============================================ */
 
-
-
-
-
 .section-location {
   background: linear-gradient(60deg,#92C970, #0097e6)
 }
 
-
-.flexBox-item {
-  margin: 10px;
-  
-}
-
-.flexBox-container {
+.location-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  
 
 }
 
-
-
-.flexBox-item-1,
-.flexBox-item-2
- {
-  min-height: 200px;
-  flex-grow: 1;
+.location__map {
+  width: 35rem;
 }
 
 iframe {
@@ -508,15 +501,52 @@ iframe {
 } 
 
 .contact__details {
- padding-left: 2.5rem;
- font-size: 1rem;
+ font-size: 1.5rem;
+ padding-top: 2rem;
+}
+
+.contact__details p {
+  padding: 0.5rem;
+}
+
+.contact__span {
+  padding: 2.5rem;
 }
 
 
-.contact__details li {
-  padding: 0.8rem;
+
+footer {
+  background: #111;
+  width: 100%;
+  height: auto;
 }
 
-.contact__details li span {
-  padding: 1.5rem;
+.footer-container {
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.footer__address {
+padding: 2rem;
+  color: #92C970;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+
+.footer-bottom {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #0097e6;
 }
